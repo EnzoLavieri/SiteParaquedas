@@ -1,0 +1,1004 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Fira Sans;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #505050;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #444;
+  padding: 5px;
+}
+
+header {
+  /* border: 1px solid green; */
+  background-color: #505050;
+  width: 100%;
+  height: 118px;
+  align-items: center;
+  justify-content: flex-end;
+  display: flex;
+  color: #fff;
+}
+
+.imgParaq2 {
+  width: 100%;
+  height: 634px;
+  overflow: hidden;
+}
+
+#textoParaq2 {
+  position: absolute;
+  font-size: 64px;
+  left: 164px;
+  top: 250px;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 20px 0;
+  margin: 0 164px 0 0;
+  font-size: 16px;
+}
+
+.textoOqESG {
+  display: flex;
+  width: auto;
+  height: auto;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.72px;
+  margin-top: 80px;
+  margin-bottom: auto;
+  margin-right: 163px;
+  margin-left: 163px;
+  display: inline-block; /* Faz com que a div se ajuste ao conteúdo interno */
+  padding: 10px; /* Adicione preenchimento para afastar a borda do texto */
+
+  /* revisar codigo, tem muitas coisa aqui ;p */
+}
+
+.underlineOqESG {
+  background-color: #ffd71a;
+  width: 380px;
+  height: 3px;
+  display: flex;
+  margin: 0 auto;
+  border-radius: 90px;
+}
+
+.underlinePqContratar {
+  background-color: #ffd71a;
+  width: 500px;
+  height: 3px;
+  display: flex;
+  margin: 0 auto;
+  border-radius: 90px;
+}
+
+.textoConsultESG,
+.pqContratar {
+  display: flex;
+  width: auto;
+  height: auto;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.72px;
+  margin-top: 80px;
+  margin-bottom: auto;
+  margin-right: 163px;
+  margin-left: 163px;
+}
+
+.espacador {
+  background: #1d1d1d;
+  width: 1268px;
+  height: 4px;
+  flex-shrink: 0;
+  margin: 80px auto; /* Adicione margem superior e inferior igual para centralizar */
+  border-radius: 90px;
+}
+
+.underlineConsultESG {
+  background-color: #ffd71a;
+  width: 272px;
+  height: 3px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.impactos {
+  background: #087f8c;
+  width: auto;
+  height: 445px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-top: 50px;
+}
+
+.titRec {
+  text-align: center;
+  font-size: 40px;
+}
+
+.recAmarelo {
+  background: #ffd71a;
+  width: 405px;
+  height: 99px;
+  border-radius: 20px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 28px;
+  justify-content: center;
+  align-items: center;
+}
+
+.numeros1,
+.numeros2,
+.numeros3 {
+  color: #ffd71a;
+  font-size: 96px;
+  margin-top: -240px;
+}
+
+.infoNumeros1,
+.infoNumeros3 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.infoNumeros2 {
+  color: #fff;
+  font-family: Fira Sans;
+  font-size: 32px;
+}
+
+.tamanhoFonte1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 37px; /**/
+  text-align: center;
+}
+/*color: #FFF;
+text-align: center;
+font-family: Fira Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;*/
+
+.tamanhoFonte2 {
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+}
+/*color: #FFF;
+font-family: Fira Sans;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;*/
+
+/*por enquanto nao consesegui 
+deixar as duas linhas centra-
+lizadas e com o tamanho, mas 
+acho q vai alargar muito o espacador
+para fazer caber as informacoes e vai
+deixar o resto estranho, relatar depois 
+para o Henrique e Kellen*/
+
+.espacadorImpac1,
+.espacadorImpac2,
+.espacadorImpac3 {
+  width: 400px;
+  height: 11px;
+  background-color: #ffd71a;
+  border-radius: 20px;
+  text-align: center;
+  border-bottom: 100px;
+}
+
+.espacadores {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  position: absolute;
+  bottom: 0;
+}
+.espacadores > * {
+  margin-bottom: 28px;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+  height: 400px; /* Altura desejada (ajuste conforme necessário) */
+}
+
+.carousel img {
+  max-width: 100%;
+  max-height: 100%;
+  margin-right: 60px;
+}
+
+.nossosClientes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%; /* Altura desejada (ajuste conforme necessário) */
+}
+
+.nossosClientes img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* ------------------>> STYLE VOE COM A PARAQUEDAS <<------------------*/
+
+.imgKellenODS {
+  border: 1px solid green;
+
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.imgKellenODS img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.imgKellenODS .gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.82) 23.49%,
+    rgba(40, 40, 40, 0) 99.92%
+  );
+  pointer-events: none; /* para permitir cliques e interações através da sobreposição */
+}
+
+#FraseKellenODS {
+  border: 1px solid green;
+  position: absolute;
+  top: 22%;
+  left: 10%;
+  width: 587px;
+  height: auto;
+  color: white;
+  text-align: left;
+  font-size: 40px;
+  /*ARRUMAR DEPOIS A GAMBIARRA DO CARACTER INVISIVEL "ㅤㅤㅤㅤㅤㅤㅤ-Kellen Oliveira" */
+}
+
+.servicos {
+  font-size: 64px;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  width: 247px;
+  height: 129px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  margin: 0 auto;
+}
+
+.textosServicosVerde {
+  margin-left: 196px;
+  margin-right: 96px;
+  text-align: right;
+  padding: 18px;
+  width: 1094px;
+  height: 195px;
+}
+
+.textosServicosAmarela {
+  margin-left: 96px;
+  margin-right: 196px;
+  text-align: left;
+  padding: 18px;
+  width: 1094px;
+  height: 195px;
+}
+
+.fonteTipoServico {
+  color: #fff;
+  font-size: 48px;
+}
+
+.fonteDescServico {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 300;
+  margin-top: 17px;
+}
+
+.retaVerde {
+  border: 1px solid greenyellow;
+
+  position: relative;
+  width: auto;
+  height: 195px;
+  background: linear-gradient(270deg, #087f8c 0%, rgba(8, 127, 140, 0) 100%);
+  margin-bottom: 64px;
+  margin-right: 217px;
+  border-radius: 0px 100px 100px 0px;
+}
+
+.retaAmarela {
+  border: 1px solid greenyellow;
+
+  width: auto;
+  height: 195px;
+  background: linear-gradient(270deg, rgba(255, 215, 26, 0) 0%, #ffd71a 100%);
+  margin-left: 217px;
+  margin-bottom: 64px;
+  border-radius: 100px 0px 0px 100px;
+  position: relative;
+}
+
+.topicosTreinameno {
+  color: #fff;
+  font-size: 36px;
+  width: 974px;
+  height: auto;
+  margin-left: 316px;
+}
+
+.liTreinamento {
+  margin-top: 40px;
+  font-weight: 400;
+}
+
+.imgRetaVerde {
+  border: 1px solid greenyellow;
+  position: absolute;
+  right: -50px;
+  height: 100%;
+  align-items: center;
+  display: flex;
+}
+
+.imgRetaAmarela {
+  border: 1px solid greenyellow;
+  position: absolute;
+  left: -60px;
+  height: 100%;
+  align-items: center;
+  display: flex;
+}
+
+/* ------------------>> STYLE PARAQUEDAS ESG <<------------------*/
+
+.imgKellenParaquedasESG {
+  height: 636px; /* Altura desejada para a div */
+  overflow: hidden; /* Certifica-se de que a imagem não ultrapasse a div */
+}
+
+.imgKellenParaquedasESG img {
+  width: 100%; /* Faz com que a imagem ocupe 100% da largura da div */
+  height: 100%; /* Faz com que a imagem ocupe 100% da altura da div */
+  object-fit: cover; /* Garante que a imagem cubra completamente a área da div, mantendo a proporção */
+}
+
+.containerPqDiff {
+  text-align: center; /* Alinha o texto e o underline ao centro */
+}
+
+.pqSomosDiferentes {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 79px;
+  position: relative; /*NAO SE ESQUECER DE USAR A BASE DESSES  ELEMENTOS    */
+  display: inline-block; /*PARA ARRUMAR A GAMBIARRA DOS OUTROS SUBLINHADOS */
+}
+
+.pqSomosDiferentes::after {
+  content: "";
+  display: block;
+  width: auto;
+  height: 3px;
+  border-radius: 90px;
+  background: #087f8c;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+.retaAmarelo1 {
+  width: 625px;
+  height: 387px;
+  border-radius: 20px;
+  border: 9px solid #ffd71a;
+  background: #d9d9d9;
+  margin-left: 164px;
+  margin-top: 107px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 29px;
+}
+
+.retaVerde1 {
+  width: 569px;
+  height: 607px;
+  border-radius: 20px;
+  border: 9px solid #087f8c;
+  background: #d9d9d9;
+  margin-left: 869px;
+  margin-bottom: -60px;
+  margin-top: -120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 29px;
+}
+.retaAmarelo2 {
+  width: 615px;
+  height: 453px;
+  border-radius: 20px;
+  border: 9px solid #ffd71a;
+  background: #d9d9d9;
+  margin-left: 164px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 29px;
+}
+
+.imgRetaAmarelo1 {
+  border: 1px solid greenyellow;
+  margin-left: 1300px;
+  margin-bottom: 160px;
+  position: absolute; /* Define a posição absoluta para posicionamento personalizado */
+  /* Defina as propriedades top, right, bottom ou left conforme necessário */
+}
+
+.imgRetaVerde1 {
+  border: 1px solid greenyellow;
+  margin-top: 50px;
+  margin-right: 1400px;
+  position: absolute; /* Define a posição absoluta para posicionamento personalizado */
+  /* Defina as propriedades top, right, bottom ou left conforme necessário */
+}
+
+.imgRetaAmarelo2 {
+  /* border: 1px solid greenyellow; */
+  margin-left: 1300px;
+  margin-top: 140px;
+  position: absolute; /* Define a posição absoluta para posicionamento personalizado */
+  /* Defina as propriedades top, right, bottom ou left conforme necessário */
+}
+
+.textoRetaAmarelo1,
+.textoRetaVerde1,
+.textoRetaAmarelo2 {
+  border: 1px solid greenyellow;
+  color: #000;
+  position: relative; /* Define a posição relativa para que as posições absolutas se baseiem nela */
+  text-align: center;
+  font-size: 36px; /* Tamanho da fonte desejado */
+  font-weight: 400;
+  letter-spacing: 0.48px; /* Espaçamento entre letras desejado */
+}
+
+.significadoFontes {
+  /* border: 1px solid greenyellow; */
+  width: auto;
+  height: 255;
+  margin: 140px 166px 0px 166px;
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 102%; /* 32.64px */
+}
+
+.fontesPalavras {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fontesPalavras img {
+  /* border: 1px solid greenyellow; */
+  align-items: center;
+  width: 240px; /* Define a largura desejada para as imagens, ajuste conforme necessário */
+  height: auto; /* Mantém a proporção da imagem */
+  margin: 40 40px; /* Adiciona margem entre as imagens para espaçamento */
+}
+
+.qmSomosNos {
+  align-items: center;
+  width: 354px;
+  height: 72px;
+  margin: 0 auto; /* Define as margens automáticas para centralizar */
+  border-radius: 20px;
+  background: #087f8c;
+  color: #fff; /* Cor do texto, pode ajustar conforme necessário */
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Opcional: centraliza horizontalmente o conteúdo */
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.qmSomosNos {
+  position: relative;
+}
+
+.setaQmSomos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.setaImg {
+  width: 140px; /* Ajuste o tamanho conforme necessário */
+  height: auto; /* Isso mantém a proporção da imagem */
+}
+
+.txtQmSomos {
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+  border-bottom: 9px solid #ffd71a;
+  border-left: 9px solid #ffd71a;
+  background: #d9d9d9;
+  font-size: 48px;
+  letter-spacing: 0.96px;
+  width: 900px;
+  height: auto;
+  margin: 0 auto; /* Define as margens automáticas para centralizar horizontalmente */
+}
+
+.conhecaNossaJornada {
+  margin-top: 80px;
+  background: #087f8c;
+  height: 1351px;
+  width: 100%;
+  text-align: center; /* Center text within this container */
+}
+
+.recConhecaNossaJornada {
+  border-radius: 0px 0px 20px 20px;
+  background: #ffd71a;
+  width: 665px;
+  margin: 0 auto; /* Center the rectangle horizontally */
+  padding: 20px; /* Add padding for better visual appearance */
+}
+
+.tituloConhecaNossaJornada {
+  font-size: 40px;
+}
+
+/* tenho 3 classes, e as 3 tem 4 elementos iguais, mas ha alguns elementos unicos de cada classe, devo criar uma um componente com essas 4 classes?
+melhora ou piora? */
+
+.topico1 {
+  position: relative; /* Adiciona position: relative ao container principal */
+  border: 1px solid green;
+  display: flex;
+  padding: 45px;
+}
+
+.imgTopico1 {
+  border: 1px solid green;
+  width: 300px;
+  height: 400px;
+  border-radius: 20px;
+  flex-shrink: 0; /* Ensures the image does not affect the parent's height */
+  margin-right: 10%;
+}
+
+.espLateral1 {
+  background: #ffd71a;
+  width: 20px;
+  height: auto;
+  margin-left: 168px;
+  margin-right: 18px;
+}
+
+.txtJornadaEsq1 {
+  border: 1px solid green;
+  margin-right: 22%;
+  color: #fff;
+  font-size: 40px;
+  text-align: left;
+}
+
+.topico2 {
+  display: flex;
+  padding: 45px;
+}
+
+.txtJornadaDir {
+  border: 1px solid green;
+  color: #fff;
+  font-size: 40px;
+  margin-left: 23%;
+  text-align: right;
+}
+/* nao sei porque, mas o .espLateral2 esta ficando mais fino que o .espLateral1 */
+.espLateral2 {
+  background: #ffd71a;
+  width: 20px;
+  height: auto;
+  margin-right: 168px;
+  margin-left: 18px;
+}
+
+.topico3 {
+  display: flex;
+  padding: 45px;
+}
+
+.txtJornadaEsq2 {
+  border: 1px solid green;
+  margin-right: 22%;
+  color: #fff;
+  font-size: 40px;
+  text-align: left;
+}
+
+.espLateral3 {
+  background: #ffd71a;
+  width: 20px;
+  height: auto;
+  margin-left: 168px;
+  margin-right: 18px;
+}
+
+.tempoDeFirma {
+  color: #fff;
+  text-align: center;
+}
+
+.tempo {
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.ANO {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.DEPARAQUEDASESG {
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.imgTempo {
+  height: 60px;
+  width: auto;
+}
+
+.sublinhadoTempo {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 79px;
+  position: relative; /*NAO SE ESQUECER DE USAR A BASE DESSES  ELEMENTOS    */
+  display: inline-block; /*PARA ARRUMAR A GAMBIARRA DOS OUTROS SUBLINHADOS */
+}
+
+.sublinhadoTempo::after {
+  content: "";
+  display: block;
+  width: auto;
+  height: 3px;
+  border-radius: 90px;
+  background: #ffd71a; /*border-bottom: 6px solid #ffd71a; */
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+/* ------------------>> STYLE PARAQUEDAS ESG <<------------------*/
+
+.espacadorBalao {
+  background: #000000;
+  width: auto;
+  height: 4px;
+  flex-shrink: 0;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 90px;
+}
+
+.tituloBalao1 {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.topicoBalao {
+  text-align: center;
+  color: #ffd71a;
+  font-weight: 700;
+  font-size: 48px;
+  text-decoration: underline;
+  text-decoration-color: #087f8c;
+  margin: 60px;
+  /*----> IMPORTAR ESSAS DUAS LINHAS DE CODIGOS (763,764) */
+  /*----> PARA O RESTO QUE TEM SUBLINHADO, 5 MIN */
+  /*----> 5 MIN DE PESQUISA SALVOU HORAS DE GAMBIARRA */
+  /*----> COM O CHAT GPT, abandona o resto, fds, q raiva, tnc*/
+}
+
+.elementosBalao1 {
+  display: flex;
+}
+
+.balaoEsq {
+  max-width: 100%;
+  height: auto;
+  float: left; /* Adicionado float para alinhar a imagem à esquerda */
+}
+
+.textoBalao1 {
+  text-align: center;
+  width: 1009px;
+  height: 284px; /* Ajustado para a altura da imagem */
+  color: #fff;
+  font-size: 48px;
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box; /* Garante que o padding não aumente o tamanho total */
+  margin-left: -20px; /* Adicionado margem à esquerda para separar a imagem do texto */
+}
+
+.textoBalao2 {
+  color: #fff;
+  margin-top: 40px;
+  font-size: 48px;
+  margin-left: 160px;
+  margin-right: 160px;
+}
+
+.listaBalao {
+  margin-left: 44px;
+  margin-top: 20px;
+  font-size: 48px;
+}
+
+li::marker {
+  color: #087f8c;
+}
+
+.continerBalao {
+  display: flex;
+}
+.nuvem1 {
+  margin-left: -50px;
+  margin-top: 20px;
+}
+
+.nuvem2 {
+  margin-left: 800px;
+}
+
+.textoBalao3 {
+  margin-top: 11%;
+  margin-left: 11%;
+  margin-right: 11%;
+  margin-bottom: 4%;
+  color: #fff;
+  text-align: justify;
+  font-size: 48px;
+}
+
+.palestrasEoficinas {
+  color: #fff;
+  font-size: 48px;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #ffd71a;
+}
+
+.eventos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8%; /* Espaço entre as colunas */
+}
+
+.eventos > div {
+  margin-top: 28px;
+  width: 350px;
+  height: 443.59px;
+  border-radius: 30px;
+  border-right: 6px solid #ffd71a;
+  border-bottom: 6px solid #ffd71a;
+  background: #d9d9d9;
+  text-align: center;
+}
+
+.tipoPalestra {
+  font-size: 34px;
+  margin-top: 22px; /* Adicionado para mover para baixo */
+  display: block; /* Garante que a margem seja aplicada corretamente */
+}
+.localPalestra {
+  font-size: 22px;
+}
+
+.imgGENH,
+.imgSENAC,
+.imgACIAP {
+  margin-top: 20px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%; /* Alterado para 50% para criar um círculo */
+  object-fit: cover; /* Garante que a imagem cubra completamente o círculo */
+}
+
+.ponteAcademica {
+  background: #087f8c;
+  width: auto;
+  height: auto;
+  margin-top: 120px;
+  position: relative;
+}
+
+.fundoTituloPonteAcad {
+  border: 1px solid greenyellow;
+  border-radius: 20px;
+  background: #ffd71a;
+  width: 500px;
+  min-height: 107px; /* Alterado para min-height */
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.tituloPonteAcad {
+  border: 1px solid greenyellow;
+  width: 100%;
+  text-align: center;
+  font-size: 48px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.textoPonteAcad {
+  /* border: 1px solid greenyellow; */
+
+  text-align: center;
+  font-size: 48px;
+  padding: 190px;
+  color: #fff;
+}
+
+.containerBalao {
+  margin-top: -50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px; /* Adiciona espaçamento uniforme à esquerda e à direita */
+  box-sizing: border-box; /* Garante que o padding não aumente a largura total */
+}
+
+.fonteMaior {
+  font-size: 96px;
+}
+/* forteMenor kk */
+.fonteMenor {
+  font-size: 36px;
+}
+
+.retaAmareloBalao1,
+.retaAmareloBalao2,
+.retaAmareloBalao3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffd71a;
+  border: 6px solid #000000;
+  border-radius: 20px;
+  padding: 20px;
+  width: 400px;
+  text-align: center;
+  margin: 0 50px; /* Adiciona margens à esquerda e à direita */
+}
+
+.qtdeProjetos {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.qtdeProjetos2020,
+.qtdeProjetos2021,
+.qtdeProjetos2022,
+.qtdeProjetos2023 {
+  color: #fff;
+  font-size: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.qtdeProjetos2020,
+.qtdeProjetos2021,
+.qtdeProjetos2022 {
+  margin-right: -220px;
+}
+
+.qtdeProjetos2021,
+.qtdeProjetos2023 {
+  color: #ffd71a;
+}
+
+.qtdeTempo {
+  font-size: 40px;
+}
+
+.cadPonteAcad {
+  margin-top: 120px;
+}
+
+.txtCadPonteAcad {
+  color: #fff;
+  text-align: center;
+  font-size: 36px;
+}
+
+/* ------------------>> STYLE FOOTER <<------------------*/
+
+#footer {
+  border: 1px solid greenyellow;
+  background-color: #087f8c;
+  bottom: 0;
+  width: 100%;
+  height: 190px;
+  text-align: center;
+}
